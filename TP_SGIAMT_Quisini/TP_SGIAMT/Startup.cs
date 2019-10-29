@@ -36,7 +36,15 @@ namespace TP_SGIAMT
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             var connection = Configuration.GetConnectionString("DefaultConnection");
+<<<<<<< HEAD
             services.AddDbContext<DB_A4D4D9_BDSGIAMTContext>(options=>options.UseSqlServer(connection));
+=======
+<<<<<<< HEAD
+            services.AddDbContext<DB_A4D4D9_BDSGIAMTContext>(options=>options.UseSqlServer(connection));
+=======
+            services.AddDbContext<DB_A4F05E_SGIAMTPContext>(options=>options.UseSqlServer(connection));
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -60,7 +68,15 @@ namespace TP_SGIAMT
             {
                 routes.MapRoute(
                     name: "default",
+<<<<<<< HEAD
                     template: "{controller=Acces}/{action=LogIn}/{id?}");
+=======
+<<<<<<< HEAD
+                    template: "{controller=Acces}/{action=LogIn}/{id?}");
+=======
+                    template: "{controller=TUsuarios}/{action=Index}/{id?}");
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
             });
         }
     }

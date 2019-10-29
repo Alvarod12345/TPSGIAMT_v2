@@ -11,9 +11,21 @@ namespace TP_SGIAMT.Controllers
 {
     public class TUsuariosController : Controller
     {
+<<<<<<< HEAD
         private readonly DB_A4D4D9_BDSGIAMTContext _context;
 
         public TUsuariosController(DB_A4D4D9_BDSGIAMTContext context)
+=======
+<<<<<<< HEAD
+        private readonly DB_A4D4D9_BDSGIAMTContext _context;
+
+        public TUsuariosController(DB_A4D4D9_BDSGIAMTContext context)
+=======
+        private readonly DB_A4F05E_SGIAMTPContext _context;
+
+        public TUsuariosController(DB_A4F05E_SGIAMTPContext context)
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
         {
             _context = context;
         }
@@ -21,8 +33,18 @@ namespace TP_SGIAMT.Controllers
         // GET: TUsuarios
         public async Task<IActionResult> Index()
         {
+<<<<<<< HEAD
             var dB_A4D4D9_BDSGIAMTContext = _context.TUsuario.Include(t => t.FkIauIdArchivoNavigation).Include(t => t.FkItuTipoUsuarioNavigation).Include(t => t.FkIuCodCategoriaNavigation);
             return View(await dB_A4D4D9_BDSGIAMTContext.ToListAsync());
+=======
+<<<<<<< HEAD
+            var dB_A4D4D9_BDSGIAMTContext = _context.TUsuario.Include(t => t.FkIauIdArchivoNavigation).Include(t => t.FkItuTipoUsuarioNavigation).Include(t => t.FkIuCodCategoriaNavigation);
+            return View(await dB_A4D4D9_BDSGIAMTContext.ToListAsync());
+=======
+            var dB_A4F05E_SGIAMTPContext = _context.TUsuario.Include(t => t.FkItuTipoUsuarioNavigation).Include(t => t.FkIuCodCategoriaNavigation);
+            return View(await dB_A4F05E_SGIAMTPContext.ToListAsync());
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
         }
 
         // GET: TUsuarios/Details/5
@@ -34,7 +56,14 @@ namespace TP_SGIAMT.Controllers
             }
 
             var tUsuario = await _context.TUsuario
+<<<<<<< HEAD
                 .Include(t => t.FkIauIdArchivoNavigation)
+=======
+<<<<<<< HEAD
+                .Include(t => t.FkIauIdArchivoNavigation)
+=======
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
                 .Include(t => t.FkItuTipoUsuarioNavigation)
                 .Include(t => t.FkIuCodCategoriaNavigation)
                 .FirstOrDefaultAsync(m => m.PkIuDni == id);
@@ -49,9 +78,20 @@ namespace TP_SGIAMT.Controllers
         // GET: TUsuarios/Create
         public IActionResult Create()
         {
+<<<<<<< HEAD
             ViewData["FkIauIdArchivo"] = new SelectList(_context.TArchivoUsuario, "PkIauIdArchivo", "PkIauIdArchivo");
             ViewData["FkItuTipoUsuario"] = new SelectList(_context.TTipoUsuario, "PkItuTipoUsuario", "PkItuTipoUsuario");
             ViewData["FkIuCodCategoria"] = new SelectList(_context.TCategoria, "PkIcCodCat", "PkIcCodCat");
+=======
+<<<<<<< HEAD
+            ViewData["FkIauIdArchivo"] = new SelectList(_context.TArchivoUsuario, "PkIauIdArchivo", "PkIauIdArchivo");
+            ViewData["FkItuTipoUsuario"] = new SelectList(_context.TTipoUsuario, "PkItuTipoUsuario", "PkItuTipoUsuario");
+            ViewData["FkIuCodCategoria"] = new SelectList(_context.TCategoria, "PkIcCodCat", "PkIcCodCat");
+=======
+            ViewData["FkItuTipoUsuario"] = new SelectList(_context.TTipoUsuario, "PkItuTipoUsuario", "PkItuTipoUsuario");
+            ViewData["FkIuCodCategoria"] = new SelectList(_context.TCategoria, "PkIcCodCat", "VcNomCategoria");
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
             return View();
         }
 
@@ -60,7 +100,15 @@ namespace TP_SGIAMT.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+<<<<<<< HEAD
         public async Task<IActionResult> Create([Bind("PkIuDni,VuNombre,VuApaterno,VuAmaterno,DuFechaNacimiento,VuContraseña,VuSexo,VuNacademia,FkIuCodCategoria,FkItuTipoUsuario,FkIauIdArchivo")] TUsuario tUsuario)
+=======
+<<<<<<< HEAD
+        public async Task<IActionResult> Create([Bind("PkIuDni,VuNombre,VuApaterno,VuAmaterno,DuFechaNacimiento,VuContraseña,VuSexo,VuNacademia,FkIuCodCategoria,FkItuTipoUsuario,FkIauIdArchivo")] TUsuario tUsuario)
+=======
+        public async Task<IActionResult> Create([Bind("PkIuDni,VuNombre,VuApaterno,VuAmaterno,DuFechaNacimiento,VuContraseña,VuSexo,VuNacademia,FkIuCodCategoria,FkItuTipoUsuario")] TUsuario tUsuario)
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
         {
             if (ModelState.IsValid)
             {
@@ -68,9 +116,20 @@ namespace TP_SGIAMT.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+<<<<<<< HEAD
             ViewData["FkIauIdArchivo"] = new SelectList(_context.TArchivoUsuario, "PkIauIdArchivo", "PkIauIdArchivo", tUsuario.FkIauIdArchivo);
             ViewData["FkItuTipoUsuario"] = new SelectList(_context.TTipoUsuario, "PkItuTipoUsuario", "PkItuTipoUsuario", tUsuario.FkItuTipoUsuario);
             ViewData["FkIuCodCategoria"] = new SelectList(_context.TCategoria, "PkIcCodCat", "PkIcCodCat", tUsuario.FkIuCodCategoria);
+=======
+<<<<<<< HEAD
+            ViewData["FkIauIdArchivo"] = new SelectList(_context.TArchivoUsuario, "PkIauIdArchivo", "PkIauIdArchivo", tUsuario.FkIauIdArchivo);
+            ViewData["FkItuTipoUsuario"] = new SelectList(_context.TTipoUsuario, "PkItuTipoUsuario", "PkItuTipoUsuario", tUsuario.FkItuTipoUsuario);
+            ViewData["FkIuCodCategoria"] = new SelectList(_context.TCategoria, "PkIcCodCat", "PkIcCodCat", tUsuario.FkIuCodCategoria);
+=======
+            ViewData["FkItuTipoUsuario"] = new SelectList(_context.TTipoUsuario, "PkItuTipoUsuario", "PkItuTipoUsuario", tUsuario.FkItuTipoUsuario);
+            ViewData["FkIuCodCategoria"] = new SelectList(_context.TCategoria, "PkIcCodCat", "VcNomCategoria", tUsuario.FkIuCodCategoria);
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
             return View(tUsuario);
         }
 
@@ -87,7 +146,14 @@ namespace TP_SGIAMT.Controllers
             {
                 return NotFound();
             }
+<<<<<<< HEAD
             ViewData["FkIauIdArchivo"] = new SelectList(_context.TArchivoUsuario, "PkIauIdArchivo", "PkIauIdArchivo", tUsuario.FkIauIdArchivo);
+=======
+<<<<<<< HEAD
+            ViewData["FkIauIdArchivo"] = new SelectList(_context.TArchivoUsuario, "PkIauIdArchivo", "PkIauIdArchivo", tUsuario.FkIauIdArchivo);
+=======
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
             ViewData["FkItuTipoUsuario"] = new SelectList(_context.TTipoUsuario, "PkItuTipoUsuario", "PkItuTipoUsuario", tUsuario.FkItuTipoUsuario);
             ViewData["FkIuCodCategoria"] = new SelectList(_context.TCategoria, "PkIcCodCat", "PkIcCodCat", tUsuario.FkIuCodCategoria);
             return View(tUsuario);
@@ -98,7 +164,15 @@ namespace TP_SGIAMT.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+<<<<<<< HEAD
         public async Task<IActionResult> Edit(int id, [Bind("PkIuDni,VuNombre,VuApaterno,VuAmaterno,DuFechaNacimiento,VuContraseña,VuSexo,VuNacademia,FkIuCodCategoria,FkItuTipoUsuario,FkIauIdArchivo")] TUsuario tUsuario)
+=======
+<<<<<<< HEAD
+        public async Task<IActionResult> Edit(int id, [Bind("PkIuDni,VuNombre,VuApaterno,VuAmaterno,DuFechaNacimiento,VuContraseña,VuSexo,VuNacademia,FkIuCodCategoria,FkItuTipoUsuario,FkIauIdArchivo")] TUsuario tUsuario)
+=======
+        public async Task<IActionResult> Edit(int id, [Bind("PkIuDni,VuNombre,VuApaterno,VuAmaterno,DuFechaNacimiento,VuContraseña,VuSexo,VuNacademia,FkIuCodCategoria,FkItuTipoUsuario")] TUsuario tUsuario)
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
         {
             if (id != tUsuario.PkIuDni)
             {
@@ -125,7 +199,14 @@ namespace TP_SGIAMT.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+<<<<<<< HEAD
             ViewData["FkIauIdArchivo"] = new SelectList(_context.TArchivoUsuario, "PkIauIdArchivo", "PkIauIdArchivo", tUsuario.FkIauIdArchivo);
+=======
+<<<<<<< HEAD
+            ViewData["FkIauIdArchivo"] = new SelectList(_context.TArchivoUsuario, "PkIauIdArchivo", "PkIauIdArchivo", tUsuario.FkIauIdArchivo);
+=======
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
             ViewData["FkItuTipoUsuario"] = new SelectList(_context.TTipoUsuario, "PkItuTipoUsuario", "PkItuTipoUsuario", tUsuario.FkItuTipoUsuario);
             ViewData["FkIuCodCategoria"] = new SelectList(_context.TCategoria, "PkIcCodCat", "PkIcCodCat", tUsuario.FkIuCodCategoria);
             return View(tUsuario);
@@ -140,7 +221,14 @@ namespace TP_SGIAMT.Controllers
             }
 
             var tUsuario = await _context.TUsuario
+<<<<<<< HEAD
                 .Include(t => t.FkIauIdArchivoNavigation)
+=======
+<<<<<<< HEAD
+                .Include(t => t.FkIauIdArchivoNavigation)
+=======
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
                 .Include(t => t.FkItuTipoUsuarioNavigation)
                 .Include(t => t.FkIuCodCategoriaNavigation)
                 .FirstOrDefaultAsync(m => m.PkIuDni == id);

@@ -6627,9 +6627,16 @@
 
   <ItemGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.7" />
 =======
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+=======
+    <PackageReference Include="Bootstrap.v3.Datetimepicker" Version="4.17.45" />
+    <PackageReference Include="Bootstrap.v3.Datetimepicker.CSS" Version="4.17.45" />
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.2" />
@@ -6642,11 +6649,18 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.10" />
     <PackageReference Include="Nancy.Authentication.Forms" Version="2.0.0" />
 =======
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
+=======
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.10" />
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
   </ItemGroup>
 
   <ItemGroup>

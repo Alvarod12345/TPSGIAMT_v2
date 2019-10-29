@@ -121,12 +121,16 @@ input[type=button], input[type=submit], input[type=reset] {
         transform: scale(0.95);
     }
 
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 .login-box input[type=text], .login-box input[type=password] {
 =======
 input[type=text] {
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+input[type=text] {
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
     background-color: #f6f6f6;
     border: none;
     color: #0d0d0d;
@@ -148,6 +152,7 @@ input[type=text] {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*.login-box input[type="text"], .login-box input[type="password"] {
     border: none;
     border-bottom: 1px solid #fff;
@@ -161,6 +166,8 @@ input[type=text] {
 
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
 
+=======
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
     input[type=text]:focus {
         background-color: #FFFFFF;
         border-bottom: 2px solid #5fbae9;
@@ -171,6 +178,7 @@ input[type=text] {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
    
 =======
     input[type=password]:placeholder {
@@ -178,6 +186,9 @@ input[type=text] {
     }
 
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
 
 /* ANIMATIONS */
 

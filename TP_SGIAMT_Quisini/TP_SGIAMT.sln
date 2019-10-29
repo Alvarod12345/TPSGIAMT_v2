@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
+<<<<<<< HEAD
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TP_SGIAMT", "TP_SGIAMT\TP_SGIAMT.csproj", "{3AFE1018-9A42-4468-84B7-FE0637606ADE}"
+=======
+<<<<<<< HEAD
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TP_SGIAMT", "TP_SGIAMT\TP_SGIAMT.csproj", "{3AFE1018-9A42-4468-84B7-FE0637606ADE}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP_SGIAMT", "TP_SGIAMT\TP_SGIAMT.csproj", "{3AFE1018-9A42-4468-84B7-FE0637606ADE}"
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

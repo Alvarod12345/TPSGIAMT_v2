@@ -3,6 +3,7 @@
   "targets": {
     ".NETCoreApp,Version=v2.1": {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.AspNet.Mvc/5.2.7": {
         "type": "package",
         "dependencies": {
@@ -27,6 +28,39 @@
       },
 =======
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+=======
+      "bootstrap/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "jquery": "1.9.0"
+        }
+      },
+      "bootstrap.less/3.3.5": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.9.1"
+        }
+      },
+      "Bootstrap.v3.Datetimepicker/4.17.45": {
+        "type": "package",
+        "dependencies": {
+          "Moment.js": "2.9.0",
+          "bootstrap.Less": "3.3.0"
+        }
+      },
+      "Bootstrap.v3.Datetimepicker.CSS/4.17.45": {
+        "type": "package",
+        "dependencies": {
+          "Moment.js": "2.9.0",
+          "bootstrap": "3.3.0"
+        }
+      },
+      "jQuery/1.9.1": {
+        "type": "package"
+      },
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -40,6 +74,7 @@
           "lib/netstandard2.0/System.Net.Http.Formatting.dll": {}
         }
       },
+<<<<<<< HEAD
 <<<<<<< HEAD
       "Microsoft.AspNet.WebPages/3.2.7": {
         "type": "package",
@@ -62,6 +97,8 @@
       },
 =======
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
       "Microsoft.AspNetCore/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -2308,6 +2345,7 @@
         }
       },
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.Extensions.PlatformAbstractions/1.1.0": {
         "type": "package",
         "dependencies": {
@@ -2323,6 +2361,8 @@
       },
 =======
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
       "Microsoft.Extensions.Primitives/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -2680,6 +2720,7 @@
         }
       },
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.VisualStudio.Web.CodeGeneration/2.1.10": {
         "type": "package",
         "dependencies": {
@@ -2692,6 +2733,20 @@
           "Microsoft.Extensions.DependencyInjection": "2.1.1",
           "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": "2.1.9"
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+      "Microsoft.VisualStudio.Web.CodeGeneration/2.1.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "2.1.1",
+          "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": "2.1.9"
+=======
+      "Microsoft.VisualStudio.Web.CodeGeneration/2.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "2.1.1",
+          "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": "2.1.10"
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.dll": {}
@@ -2701,10 +2756,17 @@
         }
       },
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.VisualStudio.Web.CodeGeneration.Contracts/2.1.10": {
 =======
       "Microsoft.VisualStudio.Web.CodeGeneration.Contracts/2.1.9": {
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+      "Microsoft.VisualStudio.Web.CodeGeneration.Contracts/2.1.9": {
+=======
+      "Microsoft.VisualStudio.Web.CodeGeneration.Contracts/2.1.10": {
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "11.0.2"
@@ -2716,6 +2778,7 @@
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll": {}
         }
       },
+<<<<<<< HEAD
 <<<<<<< HEAD
       "Microsoft.VisualStudio.Web.CodeGeneration.Core/2.1.10": {
         "type": "package",
@@ -2729,6 +2792,20 @@
           "Microsoft.Extensions.DependencyInjection": "2.1.1",
           "Microsoft.VisualStudio.Web.CodeGeneration.Templating": "2.1.9",
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+      "Microsoft.VisualStudio.Web.CodeGeneration.Core/2.1.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "2.1.1",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Templating": "2.1.9",
+=======
+      "Microsoft.VisualStudio.Web.CodeGeneration.Core/2.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "2.1.1",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Templating": "2.1.10",
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
           "Newtonsoft.Json": "11.0.2"
         },
         "compile": {
@@ -2738,6 +2815,7 @@
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll": {}
         }
       },
+<<<<<<< HEAD
 <<<<<<< HEAD
       "Microsoft.VisualStudio.Web.CodeGeneration.Design/2.1.10": {
         "type": "package",
@@ -2749,6 +2827,18 @@
         "dependencies": {
           "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": "2.1.9"
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design/2.1.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": "2.1.9"
+=======
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design/2.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": "2.1.10"
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
         },
         "compile": {
           "lib/netstandard2.0/dotnet-aspnet-codegenerator-design.dll": {}
@@ -2757,6 +2847,7 @@
           "lib/netstandard2.0/dotnet-aspnet-codegenerator-design.dll": {}
         }
       },
+<<<<<<< HEAD
 <<<<<<< HEAD
       "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/2.1.10": {
         "type": "package",
@@ -2768,6 +2859,18 @@
         "dependencies": {
           "Microsoft.VisualStudio.Web.CodeGeneration.Core": "2.1.9"
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+      "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/2.1.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.Web.CodeGeneration.Core": "2.1.9"
+=======
+      "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/2.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.Web.CodeGeneration.Core": "2.1.10"
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll": {}
@@ -2776,20 +2879,34 @@
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll": {}
         }
       },
+<<<<<<< HEAD
 <<<<<<< HEAD
       "Microsoft.VisualStudio.Web.CodeGeneration.Templating/2.1.10": {
 =======
       "Microsoft.VisualStudio.Web.CodeGeneration.Templating/2.1.9": {
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+      "Microsoft.VisualStudio.Web.CodeGeneration.Templating/2.1.9": {
+=======
+      "Microsoft.VisualStudio.Web.CodeGeneration.Templating/2.1.10": {
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Razor.Language": "2.1.1",
           "Microsoft.CodeAnalysis.CSharp": "2.8.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "Microsoft.VisualStudio.Web.CodeGeneration.Utils": "2.1.10"
 =======
           "Microsoft.VisualStudio.Web.CodeGeneration.Utils": "2.1.9"
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+          "Microsoft.VisualStudio.Web.CodeGeneration.Utils": "2.1.9"
+=======
+          "Microsoft.VisualStudio.Web.CodeGeneration.Utils": "2.1.10"
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll": {}
@@ -2798,6 +2915,7 @@
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll": {}
         }
       },
+<<<<<<< HEAD
 <<<<<<< HEAD
       "Microsoft.VisualStudio.Web.CodeGeneration.Utils/2.1.10": {
         "type": "package",
@@ -2811,6 +2929,20 @@
           "Microsoft.CodeAnalysis.CSharp.Workspaces": "2.8.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Contracts": "2.1.9",
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+      "Microsoft.VisualStudio.Web.CodeGeneration.Utils/2.1.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CodeAnalysis.CSharp.Workspaces": "2.8.0",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Contracts": "2.1.9",
+=======
+      "Microsoft.VisualStudio.Web.CodeGeneration.Utils/2.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CodeAnalysis.CSharp.Workspaces": "2.8.0",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Contracts": "2.1.10",
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
           "Newtonsoft.Json": "11.0.2",
           "NuGet.Frameworks": "4.7.0"
         },
@@ -2822,6 +2954,7 @@
         }
       },
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/2.1.10": {
         "type": "package",
         "dependencies": {
@@ -2832,6 +2965,18 @@
         "dependencies": {
           "Microsoft.VisualStudio.Web.CodeGeneration": "2.1.9"
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+      "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/2.1.9": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.Web.CodeGeneration": "2.1.9"
+=======
+      "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/2.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.VisualStudio.Web.CodeGeneration": "2.1.10"
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll": {}
@@ -2840,6 +2985,7 @@
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll": {}
         }
       },
+<<<<<<< HEAD
 <<<<<<< HEAD
       "Microsoft.Web.Infrastructure/1.0.0": {
         "type": "package",
@@ -2852,6 +2998,8 @@
       },
 =======
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
       "Microsoft.Win32.Registry/4.5.0": {
         "type": "package",
         "dependencies": {
@@ -2875,6 +3023,7 @@
           }
         }
       },
+<<<<<<< HEAD
 <<<<<<< HEAD
       "Nancy/2.0.0": {
         "type": "package",
@@ -2908,6 +3057,13 @@
       },
 =======
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+=======
+      "Moment.js/2.9.0": {
+        "type": "package"
+      },
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -3259,10 +3415,14 @@
         },
         "compile": {
 <<<<<<< HEAD
+<<<<<<< HEAD
           "ref/netstandard1.3/System.Collections.NonGeneric.dll": {}
 =======
           "ref/netstandard1.3/_._": {}
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+          "ref/netstandard1.3/_._": {}
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
         },
         "runtime": {
           "lib/netstandard1.3/System.Collections.NonGeneric.dll": {}
@@ -3287,6 +3447,7 @@
         }
       },
 <<<<<<< HEAD
+<<<<<<< HEAD
       "System.ComponentModel/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -3301,6 +3462,8 @@
       },
 =======
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
       "System.ComponentModel.Annotations/4.5.0": {
         "type": "package",
         "compile": {
@@ -3310,6 +3473,7 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
+<<<<<<< HEAD
 <<<<<<< HEAD
       "System.ComponentModel.Primitives/4.3.0": {
         "type": "package",
@@ -3353,6 +3517,8 @@
       },
 =======
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
       "System.Composition/1.0.31": {
         "type": "package",
         "dependencies": {
@@ -3920,6 +4086,7 @@
         }
       },
 <<<<<<< HEAD
+<<<<<<< HEAD
       "System.Net.NameResolution/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -3954,6 +4121,8 @@
       },
 =======
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
       "System.Net.Primitives/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -4840,10 +5009,14 @@
         },
         "compile": {
 <<<<<<< HEAD
+<<<<<<< HEAD
           "ref/netstandard1.3/System.Xml.XmlSerializer.dll": {}
 =======
           "ref/netstandard1.3/_._": {}
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+          "ref/netstandard1.3/_._": {}
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
@@ -4893,6 +5066,7 @@
   },
   "libraries": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Microsoft.AspNet.Mvc/5.2.7": {
       "sha512": "m3hUsn48k6Qb5El9A8naTwGTLCdSQKGSpGweqIfiVKltGJzAJJxuXvhhaQQtLCGg3i5V88iGjz0JG72/tlFKlg==",
       "type": "package",
@@ -4923,6 +5097,177 @@
     },
 =======
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+=======
+    "bootstrap/3.3.0": {
+      "sha512": "8Fn3Tnk23NpT0i1Osj3mydnknbzbFA/rOVk5hoGlqb0XXl/rDn085qanSCcCqsZlIGL2VWSbO4vihOs1hMtZ5A==",
+      "type": "package",
+      "path": "bootstrap/3.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bootstrap.3.3.0.nupkg.sha512",
+        "bootstrap.nuspec",
+        "content/Content/bootstrap-theme.css",
+        "content/Content/bootstrap-theme.css.map",
+        "content/Content/bootstrap-theme.min.css",
+        "content/Content/bootstrap.css",
+        "content/Content/bootstrap.css.map",
+        "content/Content/bootstrap.min.css",
+        "content/Scripts/bootstrap.js",
+        "content/Scripts/bootstrap.min.js",
+        "content/Scripts/npm.js",
+        "content/fonts/glyphicons-halflings-regular.eot",
+        "content/fonts/glyphicons-halflings-regular.svg",
+        "content/fonts/glyphicons-halflings-regular.ttf",
+        "content/fonts/glyphicons-halflings-regular.woff"
+      ]
+    },
+    "bootstrap.less/3.3.5": {
+      "sha512": "+xxiEyTJdWwO9G7Ig9gHoXl7grsncyQVy1bhWY9L41fSFUayIZYlziGcwB+ORQDzHAZJrCNa+y1bke11wJy0Ug==",
+      "type": "package",
+      "path": "bootstrap.less/3.3.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bootstrap.less.3.3.5.nupkg.sha512",
+        "bootstrap.less.nuspec",
+        "content/Content/bootstrap/alerts.less",
+        "content/Content/bootstrap/badges.less",
+        "content/Content/bootstrap/bootstrap.less",
+        "content/Content/bootstrap/breadcrumbs.less",
+        "content/Content/bootstrap/button-groups.less",
+        "content/Content/bootstrap/buttons.less",
+        "content/Content/bootstrap/carousel.less",
+        "content/Content/bootstrap/close.less",
+        "content/Content/bootstrap/code.less",
+        "content/Content/bootstrap/component-animations.less",
+        "content/Content/bootstrap/dropdowns.less",
+        "content/Content/bootstrap/forms.less",
+        "content/Content/bootstrap/glyphicons.less",
+        "content/Content/bootstrap/grid.less",
+        "content/Content/bootstrap/input-groups.less",
+        "content/Content/bootstrap/jumbotron.less",
+        "content/Content/bootstrap/labels.less",
+        "content/Content/bootstrap/list-group.less",
+        "content/Content/bootstrap/media.less",
+        "content/Content/bootstrap/mixins.less",
+        "content/Content/bootstrap/mixins/alerts.less",
+        "content/Content/bootstrap/mixins/background-variant.less",
+        "content/Content/bootstrap/mixins/border-radius.less",
+        "content/Content/bootstrap/mixins/buttons.less",
+        "content/Content/bootstrap/mixins/center-block.less",
+        "content/Content/bootstrap/mixins/clearfix.less",
+        "content/Content/bootstrap/mixins/forms.less",
+        "content/Content/bootstrap/mixins/gradients.less",
+        "content/Content/bootstrap/mixins/grid-framework.less",
+        "content/Content/bootstrap/mixins/grid.less",
+        "content/Content/bootstrap/mixins/hide-text.less",
+        "content/Content/bootstrap/mixins/image.less",
+        "content/Content/bootstrap/mixins/labels.less",
+        "content/Content/bootstrap/mixins/list-group.less",
+        "content/Content/bootstrap/mixins/nav-divider.less",
+        "content/Content/bootstrap/mixins/nav-vertical-align.less",
+        "content/Content/bootstrap/mixins/opacity.less",
+        "content/Content/bootstrap/mixins/pagination.less",
+        "content/Content/bootstrap/mixins/panels.less",
+        "content/Content/bootstrap/mixins/progress-bar.less",
+        "content/Content/bootstrap/mixins/reset-filter.less",
+        "content/Content/bootstrap/mixins/reset-text.less",
+        "content/Content/bootstrap/mixins/resize.less",
+        "content/Content/bootstrap/mixins/responsive-visibility.less",
+        "content/Content/bootstrap/mixins/size.less",
+        "content/Content/bootstrap/mixins/tab-focus.less",
+        "content/Content/bootstrap/mixins/table-row.less",
+        "content/Content/bootstrap/mixins/text-emphasis.less",
+        "content/Content/bootstrap/mixins/text-overflow.less",
+        "content/Content/bootstrap/mixins/vendor-prefixes.less",
+        "content/Content/bootstrap/modals.less",
+        "content/Content/bootstrap/navbar.less",
+        "content/Content/bootstrap/navs.less",
+        "content/Content/bootstrap/normalize.less",
+        "content/Content/bootstrap/pager.less",
+        "content/Content/bootstrap/pagination.less",
+        "content/Content/bootstrap/panels.less",
+        "content/Content/bootstrap/popovers.less",
+        "content/Content/bootstrap/print.less",
+        "content/Content/bootstrap/progress-bars.less",
+        "content/Content/bootstrap/responsive-embed.less",
+        "content/Content/bootstrap/responsive-utilities.less",
+        "content/Content/bootstrap/scaffolding.less",
+        "content/Content/bootstrap/tables.less",
+        "content/Content/bootstrap/theme.less",
+        "content/Content/bootstrap/thumbnails.less",
+        "content/Content/bootstrap/tooltip.less",
+        "content/Content/bootstrap/type.less",
+        "content/Content/bootstrap/utilities.less",
+        "content/Content/bootstrap/variables.less",
+        "content/Content/bootstrap/wells.less",
+        "content/Content/fonts/glyphicons-halflings-regular.eot",
+        "content/Content/fonts/glyphicons-halflings-regular.svg",
+        "content/Content/fonts/glyphicons-halflings-regular.ttf",
+        "content/Content/fonts/glyphicons-halflings-regular.woff",
+        "content/Content/fonts/glyphicons-halflings-regular.woff2",
+        "content/Scripts/bootstrap.js",
+        "content/Scripts/bootstrap.min.js"
+      ]
+    },
+    "Bootstrap.v3.Datetimepicker/4.17.45": {
+      "sha512": "0/m8BCfhDRhWdiXm8RAHS0lVfaE64/93tDyINtrf4/cBpXGnVU7o5pFP6FhGhelTX7eH0hpLc8+j2obumhI9oA==",
+      "type": "package",
+      "path": "bootstrap.v3.datetimepicker/4.17.45",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bootstrap.v3.datetimepicker.4.17.45.nupkg.sha512",
+        "bootstrap.v3.datetimepicker.nuspec",
+        "content/Content/_bootstrap-datetimepicker.less",
+        "content/Content/bootstrap-datetimepicker-build.less",
+        "content/Scripts/bootstrap-datetimepicker.js",
+        "content/Scripts/bootstrap-datetimepicker.min.js",
+        "tools/install.ps1"
+      ]
+    },
+    "Bootstrap.v3.Datetimepicker.CSS/4.17.45": {
+      "sha512": "O6uUKSMe4KvfSJ1pON8yI8JzTxpf/InaDChbC3kwfUFG7hjysyIpx8fmgEtb8sojMJcfRRO5NFyLsz+rRX3Fdw==",
+      "type": "package",
+      "path": "bootstrap.v3.datetimepicker.css/4.17.45",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bootstrap.v3.datetimepicker.css.4.17.45.nupkg.sha512",
+        "bootstrap.v3.datetimepicker.css.nuspec",
+        "content/Content/bootstrap-datetimepicker.css",
+        "content/Content/bootstrap-datetimepicker.min.css",
+        "content/Scripts/bootstrap-datetimepicker.js",
+        "content/Scripts/bootstrap-datetimepicker.min.js",
+        "tools/install.ps1"
+      ]
+    },
+    "jQuery/1.9.1": {
+      "sha512": "HiX9icLyiJGgiL5EOIn0d1MBPHVV2M9mzWT4mANdniDNR51RvAFTyKEXEd2+5yQJ4PJ5xePOR61Vjj/omQzYcw==",
+      "type": "package",
+      "path": "jquery/1.9.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Scripts/jquery-1.9.1-vsdoc.js",
+        "Content/Scripts/jquery-1.9.1.js",
+        "Content/Scripts/jquery-1.9.1.min.js",
+        "Content/Scripts/jquery-1.9.1.min.map",
+        "Tools/common.ps1",
+        "Tools/install.ps1",
+        "Tools/jquery-1.9.1.intellisense.js",
+        "Tools/uninstall.ps1",
+        "jquery.1.9.1.nupkg.sha512",
+        "jquery.nuspec"
+      ]
+    },
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "sha512": "owAlEIUZXWSnkK8Z1c+zR47A0X6ykF4XjbPok4lQKNuciUfHLGPd6QnI+rt/8KlQ17PmF+I4S3f+m+Qe4IvViw==",
       "type": "package",
@@ -4940,6 +5285,7 @@
         "microsoft.aspnet.webapi.client.nuspec"
       ]
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
     "Microsoft.AspNet.WebPages/3.2.7": {
       "sha512": "2jwZFB7PvY+tbdz0ZP4iEo7gMrJxkCQUzoGLh6swUc6ZXl6DoKyDslmGcC/j9PFmJXCRMVIqtRorlPSMU2DuRA==",
@@ -4964,6 +5310,8 @@
     },
 =======
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
     "Microsoft.AspNetCore/2.1.1": {
       "sha512": "9r1qojnhb9BJYqK+vpyzzHoovfc12VHQ5l61blIn1QHWb8R6946LKoUnteXbtpy3Sn8bn4OAB5ZEPKwwAyeGjQ==",
       "type": "package",
@@ -7047,6 +7395,7 @@
       ]
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Microsoft.Extensions.PlatformAbstractions/1.1.0": {
       "sha512": "H6ZsQzxYw/6k2DfEQRXdC+vQ6obd6Uba3uGJrnJ2vG4PRXjQZ7seB13JdCfE72abp8E6Fk3gGgDzfJiLZi5ZpQ==",
       "type": "package",
@@ -7064,6 +7413,8 @@
     },
 =======
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
     "Microsoft.Extensions.Primitives/2.1.1": {
       "sha512": "scJ1GZNIxMmjpENh0UZ8XCQ6vzr/LzeF9WvEA51Ix2OQGAs9WPgPu8ABVUdvpKPLuor/t05gm6menJK3PwqOXg==",
       "type": "package",
@@ -7660,21 +8011,34 @@
       ]
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Microsoft.VisualStudio.Web.CodeGeneration/2.1.10": {
       "sha512": "HCIqKUjVJiq5PN2vngvVz8e4/GLl1gqUwdUXPObF4xAQUTdlutfA8OTcjaIEF1YzAR95tbzCAwD15L3d6LLhrQ==",
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration/2.1.10",
 =======
+=======
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
     "Microsoft.VisualStudio.Web.CodeGeneration/2.1.9": {
       "sha512": "fnArZMBAlGUxuVIffEYoi+IsUR+rTQ/Mz+pIHyOnf5AHBJ5Jp1LvWQmyoWcs5k+Q0xXOhTNiJTvvwdw84H5rZA==",
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration/2.1.9",
+<<<<<<< HEAD
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+=======
+    "Microsoft.VisualStudio.Web.CodeGeneration/2.1.10": {
+      "sha512": "HCIqKUjVJiq5PN2vngvVz8e4/GLl1gqUwdUXPObF4xAQUTdlutfA8OTcjaIEF1YzAR95tbzCAwD15L3d6LLhrQ==",
+      "type": "package",
+      "path": "microsoft.visualstudio.web.codegeneration/2.1.10",
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.dll",
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.xml",
+<<<<<<< HEAD
 <<<<<<< HEAD
         "microsoft.visualstudio.web.codegeneration.2.1.10.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.nuspec"
@@ -7685,6 +8049,8 @@
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration.contracts/2.1.10",
 =======
+=======
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
         "microsoft.visualstudio.web.codegeneration.2.1.9.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.nuspec"
       ]
@@ -7693,6 +8059,7 @@
       "sha512": "rLQcbV5lbWi1pSTnPk5FAKW9AVi7VP3WVXj5vrzI8M1PlnAXn2LipA3biumlDcDOwCHrLth61I5JnRiqgFi+nA==",
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration.contracts/2.1.9",
+<<<<<<< HEAD
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
       "files": [
         ".nupkg.metadata",
@@ -7709,6 +8076,24 @@
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration.core/2.1.10",
 =======
+=======
+=======
+        "microsoft.visualstudio.web.codegeneration.2.1.10.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Web.CodeGeneration.Contracts/2.1.10": {
+      "sha512": "oEiesUAQqG1XaigyqRmwVk0oSEFxnZdz6M4+xqj+Ju/dGghktqJVYJOdlCpdsZTZP4s/tntt+mFbomuKBi5SRA==",
+      "type": "package",
+      "path": "microsoft.visualstudio.web.codegeneration.contracts/2.1.10",
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll",
+        "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.xml",
+<<<<<<< HEAD
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
         "microsoft.visualstudio.web.codegeneration.contracts.2.1.9.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.contracts.nuspec"
       ]
@@ -7717,12 +8102,26 @@
       "sha512": "zL3c+GzGhyN9ycpL/uBEcYe+mvNGyVFIOXwdzROVgOLt6j6ceFvSL38Vdq/ISUz6OFdkBPdIo71Qct8M9Z1QNg==",
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration.core/2.1.9",
+<<<<<<< HEAD
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+=======
+        "microsoft.visualstudio.web.codegeneration.contracts.2.1.10.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.contracts.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Web.CodeGeneration.Core/2.1.10": {
+      "sha512": "JN5NlZlqMryeA8kXDgWsyrS3O3bGVDLfLgsUIT2baLFMIQOrLOPx3HCKSvH5hOS+J4KtHu9PXm8X91QILKMIxQ==",
+      "type": "package",
+      "path": "microsoft.visualstudio.web.codegeneration.core/2.1.10",
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll",
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.xml",
+<<<<<<< HEAD
 <<<<<<< HEAD
         "microsoft.visualstudio.web.codegeneration.core.2.1.10.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.core.nuspec"
@@ -7742,6 +8141,26 @@
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration.design/2.1.9",
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+        "microsoft.visualstudio.web.codegeneration.core.2.1.9.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.core.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Web.CodeGeneration.Design/2.1.9": {
+      "sha512": "hoMP2Sr2AZF00niWLXXjHM8275c7e11f0P7PlRS3j/ETG6wizByADxRF2Q2Yb/PUhg/hXRwfj4u3vS/sxcqJJw==",
+      "type": "package",
+      "path": "microsoft.visualstudio.web.codegeneration.design/2.1.9",
+=======
+        "microsoft.visualstudio.web.codegeneration.core.2.1.10.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.core.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Web.CodeGeneration.Design/2.1.10": {
+      "sha512": "IqUmvUZ9QCBkwJZxUrpRB1t/luIOnF1cVCkQ2fHP6v/pz1/2BP0A2DGrCpGQZJNgMSTFqvvcSUpI5ehIDvFWlA==",
+      "type": "package",
+      "path": "microsoft.visualstudio.web.codegeneration.design/2.1.10",
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7750,10 +8169,17 @@
         "lib/netstandard2.0/dotnet-aspnet-codegenerator-design.dll",
         "lib/netstandard2.0/dotnet-aspnet-codegenerator-design.xml",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "microsoft.visualstudio.web.codegeneration.design.2.1.10.nupkg.sha512",
 =======
         "microsoft.visualstudio.web.codegeneration.design.2.1.9.nupkg.sha512",
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+        "microsoft.visualstudio.web.codegeneration.design.2.1.9.nupkg.sha512",
+=======
+        "microsoft.visualstudio.web.codegeneration.design.2.1.10.nupkg.sha512",
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
         "microsoft.visualstudio.web.codegeneration.design.nuspec",
         "runtimes/win-arm/lib/net461/dotnet-aspnet-codegenerator-design.exe",
         "runtimes/win-arm/lib/net461/dotnet-aspnet-codegenerator-design.xml",
@@ -7766,22 +8192,35 @@
       ]
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/2.1.10": {
       "sha512": "B+vOry1z9hCnj1K3ZHWil1iKXpJfAQ57kwctvXTCLh5z92NMK4IwAS2hud4I/Viksz1M1YMPgDSCUf6q+Ywawg==",
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration.entityframeworkcore/2.1.10",
 =======
+=======
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
     "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/2.1.9": {
       "sha512": "P9qpgTmOHb7odcAo/EqbaofUlaM8JcYu9d5wewX5ZbJMn5GcbnjDQhg5LF7DoKkcpLBCUiXG04F7lqBcsZqtUA==",
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration.entityframeworkcore/2.1.9",
+<<<<<<< HEAD
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+=======
+    "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore/2.1.10": {
+      "sha512": "B+vOry1z9hCnj1K3ZHWil1iKXpJfAQ57kwctvXTCLh5z92NMK4IwAS2hud4I/Viksz1M1YMPgDSCUf6q+Ywawg==",
+      "type": "package",
+      "path": "microsoft.visualstudio.web.codegeneration.entityframeworkcore/2.1.10",
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Templates/DbContext/NewLocalDbContext.cshtml",
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll",
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.xml",
+<<<<<<< HEAD
 <<<<<<< HEAD
         "microsoft.visualstudio.web.codegeneration.entityframeworkcore.2.1.10.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.entityframeworkcore.nuspec"
@@ -7801,11 +8240,32 @@
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration.templating/2.1.9",
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+        "microsoft.visualstudio.web.codegeneration.entityframeworkcore.2.1.9.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.entityframeworkcore.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Web.CodeGeneration.Templating/2.1.9": {
+      "sha512": "Vuw0yVKRfj/3/jcFdvJEULf+fu2VoeA/loEyX5wfj2EzFc+lpEQ+6vIvvKCc6gtjh/O3MsZZxtFGFcWcDrNK/g==",
+      "type": "package",
+      "path": "microsoft.visualstudio.web.codegeneration.templating/2.1.9",
+=======
+        "microsoft.visualstudio.web.codegeneration.entityframeworkcore.2.1.10.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.entityframeworkcore.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Web.CodeGeneration.Templating/2.1.10": {
+      "sha512": "9DarhKUfbHUiFjim9y4FySfvdHZKaQB7WcR5AOwEYMRiIur6NxNKqH+n/Ljje/9WlWpdTVPTDePj5TZWHlzvcQ==",
+      "type": "package",
+      "path": "microsoft.visualstudio.web.codegeneration.templating/2.1.10",
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll",
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.xml",
+<<<<<<< HEAD
 <<<<<<< HEAD
         "microsoft.visualstudio.web.codegeneration.templating.2.1.10.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.templating.nuspec"
@@ -7825,11 +8285,32 @@
       "type": "package",
       "path": "microsoft.visualstudio.web.codegeneration.utils/2.1.9",
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+        "microsoft.visualstudio.web.codegeneration.templating.2.1.9.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.templating.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Web.CodeGeneration.Utils/2.1.9": {
+      "sha512": "HGtpCMW7GEPygFaNjzE/zPt5zP9e7u8galmYQoR3taGL+2JRFDx9P5xd2jsRxlQUdNB0GVf/0OHxjeLJJYWJBw==",
+      "type": "package",
+      "path": "microsoft.visualstudio.web.codegeneration.utils/2.1.9",
+=======
+        "microsoft.visualstudio.web.codegeneration.templating.2.1.10.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.templating.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Web.CodeGeneration.Utils/2.1.10": {
+      "sha512": "HvhLvuEaFfDUT5lmpNZJufPBmxK/i3himNz14JqEwakCScPfeJFQfuIigjQ0AAte7ssRHQl6PT72++aFpc2XmA==",
+      "type": "package",
+      "path": "microsoft.visualstudio.web.codegeneration.utils/2.1.10",
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll",
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.xml",
+<<<<<<< HEAD
 <<<<<<< HEAD
         "microsoft.visualstudio.web.codegeneration.utils.2.1.10.nupkg.sha512",
         "microsoft.visualstudio.web.codegeneration.utils.nuspec"
@@ -7849,6 +8330,26 @@
       "type": "package",
       "path": "microsoft.visualstudio.web.codegenerators.mvc/2.1.9",
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+        "microsoft.visualstudio.web.codegeneration.utils.2.1.9.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.utils.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/2.1.9": {
+      "sha512": "bmqEQaGpXME9ErK6N+Ew3g7hia2t5tJeARZYrD6T21TT/2+OIwDrVuI3cu9RpeoLWXJa76eqcyC7tC+SYGfIZA==",
+      "type": "package",
+      "path": "microsoft.visualstudio.web.codegenerators.mvc/2.1.9",
+=======
+        "microsoft.visualstudio.web.codegeneration.utils.2.1.10.nupkg.sha512",
+        "microsoft.visualstudio.web.codegeneration.utils.nuspec"
+      ]
+    },
+    "Microsoft.VisualStudio.Web.CodeGenerators.Mvc/2.1.10": {
+      "sha512": "PKKvTxC/isyZjRtFSSfbzFlFNvLUL1JjEGex3YJQXhwGhGplIAQkDvm1PQDl9AgvrLtKv0OnUG80uq5p2I+4CA==",
+      "type": "package",
+      "path": "microsoft.visualstudio.web.codegenerators.mvc/2.1.10",
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8003,6 +8504,7 @@
         "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.xml",
         "lib/netstandard2.0/identitygeneratorfilesconfig.json",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "microsoft.visualstudio.web.codegenerators.mvc.2.1.10.nupkg.sha512",
         "microsoft.visualstudio.web.codegenerators.mvc.nuspec"
       ]
@@ -8025,6 +8527,15 @@
       ]
     },
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+        "microsoft.visualstudio.web.codegenerators.mvc.2.1.9.nupkg.sha512",
+=======
+        "microsoft.visualstudio.web.codegenerators.mvc.2.1.10.nupkg.sha512",
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+        "microsoft.visualstudio.web.codegenerators.mvc.nuspec"
+      ]
+    },
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
     "Microsoft.Win32.Registry/4.5.0": {
       "sha512": "+FWlwd//+Tt56316p00hVePBCouXyEzT86Jb3+AuRotTND0IYn0OO3obs1gnQEs/txEnt+rF2JBGLItTG+Be6A==",
       "type": "package",
@@ -8066,6 +8577,7 @@
       ]
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     "Nancy/2.0.0": {
       "sha512": "z2GMxQFbDbxqzCfkomyeqLNXW4G2NdvU727HBaP+QQ0/hm1jw9PTqHyzoB2M9aKeC5AKYmQmt9GvwR5CHL/ReA==",
       "type": "package",
@@ -8098,6 +8610,25 @@
     },
 =======
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+=======
+    "Moment.js/2.9.0": {
+      "sha512": "4rhbvFzmgXp/gjvwjxt9Qjmdz+2CD9T99erXEDtZHlYxaI06F9A4628/Vpxklm8D9RmwJjKjp1244FwEh+a5WQ==",
+      "type": "package",
+      "path": "moment.js/2.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Scripts/moment-with-locales.js",
+        "Content/Scripts/moment-with-locales.min.js",
+        "Content/Scripts/moment.js",
+        "Content/Scripts/moment.min.js",
+        "moment.js.2.9.0.nupkg.sha512",
+        "moment.js.nuspec"
+      ]
+    },
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
     "NETStandard.Library/2.0.3": {
       "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
@@ -8895,6 +9426,7 @@
       ]
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     "System.ComponentModel/4.3.0": {
       "sha512": "VyGn1jGRZVfxnh8EdvDCi71v3bMXrsu8aYJOwoV7SNDLVhiEqwP86pPMyRGsDsxhXAm2b3o9OIqeETfN5qfezw==",
       "type": "package",
@@ -8955,6 +9487,8 @@
     },
 =======
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
     "System.ComponentModel.Annotations/4.5.0": {
       "sha512": "UxYQ3FGUOtzJ7LfSdnYSFd7+oEv6M8NgUatatIN2HxNtDdlcvFAf+VIq4Of9cDMJEJC0aSRv/x898RYhB4Yppg==",
       "type": "package",
@@ -9044,6 +9578,7 @@
         "version.txt"
       ]
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
     "System.ComponentModel.Primitives/4.3.0": {
       "sha512": "j8GUkCpM8V4d4vhLIIoBLGey2Z5bCkMVNjEZseyAlm4n5arcsJOeI3zkUP+zvZgzsbLTYh4lYeP/ZD/gdIAPrw==",
@@ -9137,6 +9672,8 @@
     },
 =======
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
     "System.Composition/1.0.31": {
       "sha512": "I+D26qpYdoklyAVUdqwUBrEIckMNjAYnuPJy/h9dsQItpQwVREkDFs4b4tkBza0kT2Yk48Lcfsv2QQ9hWsh9Iw==",
       "type": "package",
@@ -10580,6 +11117,7 @@
       ]
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     "System.Net.NameResolution/4.3.0": {
       "sha512": "AFYl08R7MrsrEjqpQWTZWBadqXyTzNDaWpMqyxhb0d6sGhV6xMDKueuBXlLL30gz+DIRY6MpdgnHWlCh5wmq9w==",
       "type": "package",
@@ -10623,6 +11161,8 @@
     },
 =======
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
     "System.Net.Primitives/4.3.0": {
       "sha512": "qOu+hDwFwoZPbzPvwut2qATe3ygjeQBDQj91xlsaqGFQUI5i4ZnZb8yyQuLGpDGivEPIt8EJkd1BVzVoP31FXA==",
       "type": "package",
@@ -13302,9 +13842,16 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.AspNet.Mvc >= 5.2.7",
 =======
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+=======
+      "Bootstrap.v3.Datetimepicker >= 4.17.45",
+      "Bootstrap.v3.Datetimepicker.CSS >= 4.17.45",
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.2",
@@ -13312,25 +13859,38 @@
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.TypeScript.MSBuild >= 3.6.4",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.10",
       "Nancy.Authentication.Forms >= 2.0.0"
+=======
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.9"
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
     ]
   },
   "packageFolders": {
     "C:\\Users\\alvar\\.nuget\\packages\\": {},
 =======
+<<<<<<< HEAD
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.9"
+=======
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.10"
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
     ]
   },
   "packageFolders": {
     "C:\\Users\\alumno.LABORATORIOS\\.nuget\\packages\\": {},
+<<<<<<< HEAD
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
 <<<<<<< HEAD
       "projectUniqueName": "D:\\2k19-2\\tp\\3ra iter\\pogra\\mio-test-asp.netCore\\TP_SGIAMT_Quisini\\TP_SGIAMT\\TP_SGIAMT.csproj",
       "projectName": "TP_SGIAMT",
@@ -13344,6 +13904,20 @@
       "packagesPath": "C:\\Users\\alumno.LABORATORIOS\\.nuget\\packages\\",
       "outputPath": "D:\\delete\\TP_SGIAMT_Quisini\\TP_SGIAMT\\obj\\",
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+      "projectUniqueName": "D:\\2k19-2\\tp\\3ra iter\\pogra\\plantilla\\TP_SGIAMT\\TP_SGIAMT_Quisini\\TP_SGIAMT\\TP_SGIAMT.csproj",
+      "projectName": "TP_SGIAMT",
+      "projectPath": "D:\\2k19-2\\tp\\3ra iter\\pogra\\plantilla\\TP_SGIAMT\\TP_SGIAMT_Quisini\\TP_SGIAMT\\TP_SGIAMT.csproj",
+      "packagesPath": "C:\\Users\\alvar\\.nuget\\packages\\",
+      "outputPath": "D:\\2k19-2\\tp\\3ra iter\\pogra\\plantilla\\TP_SGIAMT\\TP_SGIAMT_Quisini\\TP_SGIAMT\\obj\\",
+=======
+      "projectUniqueName": "D:\\TP_SGIAMT_Quisini\\TP_SGIAMT\\TP_SGIAMT.csproj",
+      "projectName": "TP_SGIAMT",
+      "projectPath": "D:\\TP_SGIAMT_Quisini\\TP_SGIAMT\\TP_SGIAMT.csproj",
+      "packagesPath": "C:\\Users\\alumno.LABORATORIOS\\.nuget\\packages\\",
+      "outputPath": "D:\\TP_SGIAMT_Quisini\\TP_SGIAMT\\obj\\",
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -13354,7 +13928,11 @@
         "C:\\Users\\alvar\\AppData\\Roaming\\NuGet\\NuGet.Config",
 =======
         "C:\\Users\\alumno.LABORATORIOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+<<<<<<< HEAD
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -13380,12 +13958,25 @@
       "netcoreapp2.1": {
         "dependencies": {
 <<<<<<< HEAD
+<<<<<<< HEAD
           "Microsoft.AspNet.Mvc": {
             "target": "Package",
             "version": "[5.2.7, )"
           },
 =======
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+=======
+          "Bootstrap.v3.Datetimepicker": {
+            "target": "Package",
+            "version": "[4.17.45, )"
+          },
+          "Bootstrap.v3.Datetimepicker.CSS": {
+            "target": "Package",
+            "version": "[4.17.45, )"
+          },
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",
@@ -13411,7 +14002,11 @@
 <<<<<<< HEAD
             "suppressParent": "All",
 =======
+<<<<<<< HEAD
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
@@ -13425,11 +14020,15 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "[2.1.10, )"
           },
           "Nancy.Authentication.Forms": {
             "target": "Package",
             "version": "[2.0.0, )"
+=======
+            "version": "[2.1.9, )"
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
           }
         },
         "imports": [
@@ -13445,6 +14044,7 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
+<<<<<<< HEAD
   },
   "logs": [
     {
@@ -13490,6 +14090,11 @@
   ]
 =======
             "version": "[2.1.9, )"
+=======
+  }
+=======
+            "version": "[2.1.10, )"
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
           }
         },
         "imports": [
@@ -13499,6 +14104,23 @@
         "warn": true
       }
     }
+<<<<<<< HEAD
   }
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Bootstrap.v3.Datetimepicker 4.17.45 depends on bootstrap.less (>= 3.3.0) but bootstrap.less 3.3.0 was not found. An approximate best match of bootstrap.less 3.3.5 was resolved.",
+      "libraryId": "bootstrap.less",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
 }

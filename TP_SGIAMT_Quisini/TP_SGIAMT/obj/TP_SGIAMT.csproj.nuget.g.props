@@ -13,7 +13,11 @@
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\alumno.LABORATORIOS\.nuget\packages\;C:\Microsoft\Xamarin\NuGet\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.1.0</NuGetToolVersion>
+<<<<<<< HEAD
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
   </PropertyGroup>
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
@@ -33,10 +37,22 @@
 <<<<<<< HEAD
     <PkgMicrosoft_TypeScript_MSBuild Condition=" '$(PkgMicrosoft_TypeScript_MSBuild)' == '' ">C:\Users\alvar\.nuget\packages\microsoft.typescript.msbuild\3.6.4</PkgMicrosoft_TypeScript_MSBuild>
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\alvar\.nuget\packages\microsoft.entityframeworkcore.tools\2.1.2</PkgMicrosoft_EntityFrameworkCore_Tools>
+<<<<<<< HEAD
 =======
     <PkgMicrosoft_TypeScript_MSBuild Condition=" '$(PkgMicrosoft_TypeScript_MSBuild)' == '' ">C:\Users\alumno.LABORATORIOS\.nuget\packages\microsoft.typescript.msbuild\3.6.4</PkgMicrosoft_TypeScript_MSBuild>
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\alumno.LABORATORIOS\.nuget\packages\microsoft.entityframeworkcore.tools\2.1.2</PkgMicrosoft_EntityFrameworkCore_Tools>
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
     <PkgMicrosoft_AspNetCore_Razor_Design Condition=" '$(PkgMicrosoft_AspNetCore_Razor_Design)' == '' ">C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.razor.design\2.1.2</PkgMicrosoft_AspNetCore_Razor_Design>
+=======
+    <PkgMicrosoft_AspNetCore_Razor_Design Condition=" '$(PkgMicrosoft_AspNetCore_Razor_Design)' == '' ">C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.razor.design\2.1.2</PkgMicrosoft_AspNetCore_Razor_Design>
+=======
+    <PkgMicrosoft_TypeScript_MSBuild Condition=" '$(PkgMicrosoft_TypeScript_MSBuild)' == '' ">C:\Users\alumno.LABORATORIOS\.nuget\packages\microsoft.typescript.msbuild\3.6.4</PkgMicrosoft_TypeScript_MSBuild>
+    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\alumno.LABORATORIOS\.nuget\packages\microsoft.entityframeworkcore.tools\2.1.2</PkgMicrosoft_EntityFrameworkCore_Tools>
+    <PkgMicrosoft_AspNetCore_Razor_Design Condition=" '$(PkgMicrosoft_AspNetCore_Razor_Design)' == '' ">C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.razor.design\2.1.2</PkgMicrosoft_AspNetCore_Razor_Design>
+    <PkgjQuery Condition=" '$(PkgjQuery)' == '' ">C:\Users\alumno.LABORATORIOS\.nuget\packages\jquery\1.9.1</PkgjQuery>
+    <PkgBootstrap_v3_Datetimepicker_CSS Condition=" '$(PkgBootstrap_v3_Datetimepicker_CSS)' == '' ">C:\Users\alumno.LABORATORIOS\.nuget\packages\bootstrap.v3.datetimepicker.css\4.17.45</PkgBootstrap_v3_Datetimepicker_CSS>
+    <PkgBootstrap_v3_Datetimepicker Condition=" '$(PkgBootstrap_v3_Datetimepicker)' == '' ">C:\Users\alumno.LABORATORIOS\.nuget\packages\bootstrap.v3.datetimepicker\4.17.45</PkgBootstrap_v3_Datetimepicker>
+>>>>>>> e9211f248a17aee8ccf3b737935e5b1897a29fdd
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
   </PropertyGroup>
 </Project>

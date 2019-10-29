@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using TP_SGIAMT.Models;
 using System.Security.Cryptography;
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
@@ -20,10 +21,15 @@ using Nancy.Session;
 
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
 
+=======
+
+
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
 namespace TP_SGIAMT.Controllers
 {
     public class AccesController : Controller
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         //private readonly SignInManager<IdentityUser> _signInManager;
         //private readonly ILogger<TUsuario> _logger;
@@ -35,11 +41,15 @@ namespace TP_SGIAMT.Controllers
         private readonly DB_A4D4D9_BDSGIAMTContext _context;
         public object Session { get;  set; }
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
+=======
+        public object Session { get; private set; }
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
 
         public IActionResult LogIn()
         {
             return View();
         }
+<<<<<<< HEAD
 
         public AccesController(DB_A4D4D9_BDSGIAMTContext context)
         {
@@ -374,3 +384,57 @@ namespace TP_SGIAMT.Controllers
     }
 >>>>>>> 69f5eddd531708e2401d39e31741a17cdab79439
 }
+=======
+        private readonly DB_A4D4D9_BDSGIAMTContext _context;
+
+        public AccesController(DB_A4D4D9_BDSGIAMTContext context)
+        {
+            _context = context;
+        }
+  
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult LogIn(string txtUsuario)
+        {
+        
+                TUsuario tuser = new TUsuario();
+         
+            if (txtUsuario == tuser .PkIuDni.ToString())
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            else
+            {
+                return RedirectToAction("Acces", "LogIn");
+            }
+
+                
+            //try
+            //{
+            //    using ()
+            //    {
+            //        var oUser = (from d in db.usuario
+            //                     where d.email == Usuario.Trim() && d.password == Password.Trim()
+            //                     select d).FirstOrDefault();
+            //        if (oUser == null)
+            //        {
+            //            ViewBag.Error = "Usuario o contraseña invalida";
+            //            return View();
+            //        }
+
+            //        Session["User"] = oUser;
+
+            //    }
+
+            //    return RedirectToAction("Index", "Home");
+            //}
+            //catch (Exception ex)
+            //{
+            //    ViewBag.Error = ex.Message;
+            //    return View();
+            //}
+
+        }
+    }
+}
+>>>>>>> e056b7de1e8bbc114b07a81770d351f9f890b10f
